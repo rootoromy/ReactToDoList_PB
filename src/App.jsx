@@ -8,8 +8,8 @@ import {
   InputWrap,
   ColoredMessage,
   Text,
-} from "./components/styles.jsx";
-import Row from "./components/Row.jsx";
+} from "./components/styles";
+import Row from "./components/Row";
 
 function App() {
   const [todoText, setTodoText] = useState("");
